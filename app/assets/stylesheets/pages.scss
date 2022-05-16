@@ -1,0 +1,40 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto+Flex:opsz,wght@8..144,100&family=Source+Serif+Pro:ital,wght@1,200&display=swap');
+$gardiant: linear-gradient(90deg, hsla(313, 39%, 93%, 1) 53%, hsla(320, 78%, 79%, 1) 100%, hsla(193, 81%, 84%, 1) 100%);
+body {
+  // background: $pink;
+  background: $gardiant;
+}
+.banner {
+  padding: 20px;
+  font-size: 50px;
+  font-family: 'Roboto Flex', sans-serif;
+  color: rgb(168, 168, 168);
+  width: 500px;
+  height: 100px;
+  margin:auto;
+  text-align:center;
+}
+.form {
+  height: 100px;
+  margin:auto;
+  text-align:center;
+}
+
+p {
+  font-family: 'Roboto Flex', sans-serif;
+  margin:auto;
+  text-align:center;
+  color: rgb(148, 147, 147);
+  height: 40px;
+}
+
+.link{
+  margin-left:auto;
+  color: #e280c3;
+  &:hover {
+    color: rgb(177, 164, 164);
+  }
+}
